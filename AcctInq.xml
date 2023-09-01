@@ -1,0 +1,59 @@
+﻿<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:fix="http://www.finacle.com/fixml">
+    <soapenv:Header />
+    <soapenv:Body>
+        <fix:AcctInq_RequestFIXML>
+<FIXML xmlns="http://www.finacle.com/fixml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.finacle.com/fixml AcctInq.xsd">
+  <Header>
+    <RequestHeader>
+      <MessageKey>
+        <GlobalUUID>bd70cec7-5a25-8cd5-a0c5-96f64a286ea8</GlobalUUID>
+        <RequestUUID>8f663adf-5fbe-6208-461b-6b9ab7b5d9c6</RequestUUID>
+        <ServiceId>AcctInq</ServiceId>
+        <ServiceRequestVersion>11.7</ServiceRequestVersion>
+        <ChannelId>COR</ChannelId>
+        <AccessToken/>
+        <ClientIP/>
+        <OriginatorInstanceId/>
+        <OriginatorVersion/>
+        <LanguageId/>
+      </MessageKey>
+      <RequestMessageInfo>
+        <BankId/>
+        <TimeZone/>
+        <EntityId/>
+        <EntityType/>
+        <ArmCorrelationId/>
+        <MessageDateTime>2023-07-28T21:12:49.205</MessageDateTime>
+        <ExceptionOverrideFlag/>
+        <SrvInvocmodeOverrideFlag/>
+      </RequestMessageInfo>
+      <Security>
+        <Token>
+          <PasswordToken>
+            <UserId/>
+            <Password/>
+          </PasswordToken>
+        </Token>
+        <FICertToken/>
+        <RealUserLoginSessionId/>
+        <RealUser/>
+        <RealUserPwd/>
+        <SSOTransferToken/>
+      </Security>
+    </RequestHeader>
+  </Header>
+  <Body>
+    <AcctInqRequest>
+      <AcctInqRq>
+        <AcctId>
+          <AcctId>11111111</AcctId>
+        </AcctId>
+      </AcctInqRq>
+    </AcctInqRequest>
+  </Body>
+</FIXML>
+</fix:AcctInq_RequestFIXML>
+</soapenv:Body>
+</soapenv:Envelope>
